@@ -3052,8 +3052,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/berlin/proprietary/product/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.motodisplay.xml \
     vendor/motorola/berlin/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
     vendor/motorola/berlin/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/berlin/proprietary/system/etc/permissions/moto-core_services.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-core_services.xml \
-    vendor/motorola/berlin/proprietary/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/moto-settings.xml \
     vendor/motorola/berlin/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/berlin/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/berlin/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
@@ -3377,7 +3375,6 @@ PRODUCT_PACKAGES += \
     libmot_chi_desktop_helper \
     libmot_engine_settings \
     libmotoisdataqueue \
-    libmpbase \
     libofflinedump \
     libofflinelog \
     libopencv \
@@ -3406,10 +3403,7 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     MotCamera4 \
-    MotorolaSettingsProvider \
     com.motorola.motosignature \
-    moto-core_services \
-    moto-settings \
     com.android.hotwordenrollment.common.util \
     motorola.hardware.camera.desktop@2.0-service \
     motsettings
